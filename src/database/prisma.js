@@ -7,7 +7,7 @@ async function conectar() {
     await prisma.$connect();
     console.log('A conexão foi bem estabelecida.');
   } catch (error) {
-    console.error('Houve um erro com a conexão com a base de dados:', error);
+    console.error('Houve um erro de conexão com a base de dados:', error);
   }
 }
 
